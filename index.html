@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunnyside</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="icon"
+      href="./images/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- Logo -->
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <!-- nav links -->
+        <div class="nav-links">
+          <a href="#">About</a>
+          <a href="#">Service</a>
+          <a href="#">Project</a>
+          <a id="contact-button" href="#">Contact</a>
+          <div id="triangle"></div>
+        </div>
+        <!-- hamburger -->
+        <div class="toggle-box">
+          <a onclick="showMenu()" href="#">
+            <img class="menu" src="./images/icon-hamburger.svg" alt="items" />
+          </a>
+          <img src="./images/icon-close.svg" alt="" class="close" />
+        </div>
+      </nav>
+      <h1 class="header-text">WE ARE CREATIVES</h1>
+      <img src="./images/icon-arrow-down.svg" alt="" class="arrow" />
+    </header>
+    <!-- advertisement -->
+    <section class="transform-section">
+      <img
+        src="./images/desktop/image-transform.jpg"
+        alt=""
+        class="image-transform"
+      />
+      <div class="transform-info">
+        <h2 class="transform-title">Transform your brand</h2>
+        <p class="transform-paragraph">
+          We are a full-service creative agency specializing in helping brands
+          grow fast. Engage your clients through compelling visuals that do the
+          most of the marketing for you.
+        </p>
+        <a href="#" class="transform-link">LEARN MORE</a>
+      </div>
+    </section>
+    <section class="standout-section">
+      <img
+        src="./images/desktop/image-stand-out.jpg"
+        alt=""
+        class="image-standout"
+      />
+      <div class="standout-info">
+        <h2 class="standout-title">Stand out to the right audience</h2>
+        <p class="standout-paragraph">
+          Using a collaborative formula of designers, reseachers, photographers,
+          videograghers and copywriters. We'll build and extend your brand in
+          digital places.
+        </p>
+        <a href="#" class="standout-link">LEARN MORE</a>
+      </div>
+    </section>
+    <section class="cherry-tangerine">
+      <div class="graphic">
+        <div class="graphic-body">
+          <h2 class="graphic-title">Graphic Design</h2>
+          <p class="graphic-info">
+            Great design makes you memorable. We deliver artworks that
+            underscores your brand message and captures potential clients'
+            attention.
+          </p>
+        </div>
+      </div>
+      <div class="photo">
+        <div class="photo-body">
+          <h2 class="photo-title">Photography</h2>
+          <p class="photo-info">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="client-testimonial">
+      <h2 class="testimonial-title">Client Testimonials</h2>
+      <div class="clients">
+        <div class="emily">
+          <img src="./images/image-emily.jpg" alt="" class="client-image" />
+          <p class="client-paragraph">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <h3 class="client-name">Emily R.</h3>
+          <p class="occupation">Marketing Director</p>
+        </div>
+        <div class="thomas">
+          <img src="./images/image-thomas.jpg" alt="" class="client-image" />
+          <p class="client-paragraph">
+            Sunnyside's enthusiasm coupled with their keen interest in our
+            brand's success made it a satisfying and enjoyable experience.
+          </p>
+          <h3 class="client-name">Thomas S.</h3>
+          <p class="occupation">Chief Operating Officer</p>
+        </div>
+        <div class="jennie">
+          <img src="./images/image-jennie.jpg" alt="" class="client-image" />
+          <p class="client-paragraph">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <h3 class="client-name">Jennie F.</h3>
+          <p class="occupation">Business Owner</p>
+        </div>
+      </div>
+    </section>
+    <!-- gallery images -->
+    <div class="gallery">
+      <img
+        src="./images/desktop/image-gallery-milkbottles.jpg"
+        alt=""
+        class="gallery-images"
+      />
+      <img
+        src="./images/desktop/image-gallery-orange.jpg"
+        alt=""
+        class="gallery-images"
+      />
+      <img
+        src="./images/desktop/image-gallery-cone.jpg"
+        alt=""
+        class="gallery-images"
+      />
+      <img
+        src="./images/desktop/image-gallery-sugarcubes.jpg"
+        alt=""
+        class="gallery-images"
+      />
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <img src="./images/logo.svg" alt="" class="footer-logo" />
+      <ul class="footer-links">
+        <li class="footer-items"><a href="#" class="footer-link">About</a></li>
+        <li class="footer-items">
+          <a href="#" class="footer-link">Services</a>
+        </li>
+        <li class="footer-items">
+          <a href="#" class="footer-link">Projects</a>
+        </li>
+      </ul>
+      <div class="social-media">
+        <a href="#" class="social-link"
+          ><img src="./images/icon-facebook.svg" alt=""
+        /></a>
+        <a href="" class="social-link"
+          ><img src="./images/icon-instagram.svg" alt=""
+        /></a>
+        <a href="" class="social-link"
+          ><img src="./images/icon-twitter.svg" alt=""
+        /></a>
+        <a href="" class="social-link"
+          ><img src="./images/icon-pinterest.svg" alt=""
+        /></a>
+      </div>
+
+      <div class="attribution">
+        <p>
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io"
+            target="_blank"
+            class="attribution-link"
+            >Frontend Mentor</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script>
+      function showMenu() {
+        document.querySelector(".nav-links").classList.toggle("active");
+        document.querySelector(".menu").classList.toggle("hide");
+        document.querySelector("close").classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>

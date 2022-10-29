@@ -1,0 +1,93 @@
+@media only screen and (min-width: 720px) {
+body {
+    font-size: 24px;
+}
+
+nav .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 2rem;
+}
+
+.toggle-box {
+    display: none;
+}
+
+#contact-button {
+    background-color: white;
+}
+.arrow {
+    padding-left: 500px;
+}
+.image-transform, .image-standout {
+    display: block;
+    width: 50%;
+}
+.transform-section {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
+}
+.transform-info, .standout-info { 
+    margin-top: 40px;
+}
+.transform-title, .standout-title{
+    text-align: left;
+    font-size: 1.3em;
+}
+.transform-paragraph, .transform-link, .standout-link, .standout-paragraph {
+    text-align: left;
+    width: 85%;
+    padding-left: 70px;
+    font-size: 0.7em;
+    font-weight: bolder;
+    font-family: 'Fraunces', serif;
+}
+.standout-section{
+    display: flex;
+    flex-direction: row;
+
+}
+.cherry-tangerine {
+    display:flex;
+
+}
+.graphic {
+    width:1140px;
+    height: 480px;
+}
+.photo {
+    height: 480px;
+}
+/* testimonial */
+.clients {
+    display: flex;
+    justify-content: center;
+}
+.client {
+    padding: 2px;
+}
+/* gallery */
+.gallery {
+    display: flex;
+    flex-flow: nowrap;
+    margin-top: 90px;
+}
+.gallery-images {
+    width: 25%;
+}
+.attribution {
+font-size: 11px;
+text-align: center;
+}
+
+.attribution a {
+color: hsl(228, 45%, 44%);
+}
+}
